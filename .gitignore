@@ -1,0 +1,22 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual Environment
+env/
+*.env
+
+# Django migrations
+*/migrations/
+
+# Database files
+db.sqlite3
+*.sqlite3
+
+# Static files
+/static/
+media/
+
+# .env file (for environment variables)
+.env
